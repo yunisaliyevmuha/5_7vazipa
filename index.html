@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5.7-dars</title>
+
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-shadow: -3px -1px 27px 1px rgba(40, 17, 213, 0.76) inset;
+        -webkit-box-shadow: -3px -1px 27px 1px rgba(40, 17, 213, 0.76) inset;
+        -moz-box-shadow: -3px -1px 27px 1px rgba(40, 17, 213, 0.76) inset;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <select name="" id="change__level">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <h1>Random Word Game</h1>
+      <h3 id="random__world"></h3>
+
+      <input id="random_world_input" type="text" />
+
+      <p>Score: <span id="user__score">0</span></p>
+      <p>Score: <span id="user__time">10</span></p>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
